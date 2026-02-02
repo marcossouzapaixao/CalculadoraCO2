@@ -97,8 +97,17 @@ Os cálculos utilizam os seguintes fatores de emissão (em kg CO2 por quilômetr
 
 ```
 Calculadora/
-├── index.html          # Arquivo principal com HTML, CSS e JavaScript
-└── README.md          # Este arquivo
+├── index.html                  # Estrutura semântica HTML
+├── css/
+│   └── style.css              # Estilos CSS modernos com variáveis
+├── js/
+│   ├── routes-data.js         # Banco de dados de rotas brasileiras
+│   ├── config.js              # Configuração e fatores de emissão
+│   ├── calculator.js          # Lógica de cálculos
+│   ├── ui.js                  # Gerenciador de UI e renderização
+│   └── app.js                 # Inicialização e manipulação de eventos
+├── README.md                  # Documentação
+└── LICENSE                    # Licença MIT
 ```
 
 ## 🌍 Impacto Ambiental
